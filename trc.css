@@ -23,6 +23,6 @@ h1, h2 {
 
 
 /* Footer Styles */
-ul {
+ul.contact {
     list-style: none;
 }
