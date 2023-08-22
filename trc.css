@@ -37,6 +37,10 @@ ul.contact {
     list-style: none;
 }
 
+a:link {
+    text-decoration-line: none;
+}
+
 #footer {
     position: absolute;
     bottom: 0;
