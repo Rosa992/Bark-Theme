@@ -5,10 +5,16 @@ body {
 
 h1, h2 {
     text-align: center;
+    margin: auto;
+    line-height: 2;
 }
 
 /* Nav Styles */
-
+.nav {
+    background-color:#97ca66;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
 
 
 
@@ -36,5 +42,5 @@ ul.contact {
     bottom: 0;
    text-align: center;
    width: 100%;
-   
+   background-color: #D7D5D6;
 }
