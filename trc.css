@@ -3,6 +3,8 @@ body {
     margin: auto;
 }
 
+
+
 h1, h2 {
     text-align: center;
     margin: auto;
@@ -37,7 +39,9 @@ h1, h2 {
 .about {
     line-height: 0.5;
     margin-left: 2%;
-    
+    background-color: blue;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 
