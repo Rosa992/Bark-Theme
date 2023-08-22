@@ -3,8 +3,6 @@ body {
     margin: auto;
 }
 
-
-
 h1, h2 {
     text-align: center;
     margin: auto;
@@ -12,9 +10,33 @@ h1, h2 {
     
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 100%; 
+    grid-template-rows: 150px 70px 160px 180px 100px;
+  }
+
+  .item1 {
+  background: #97ca66;
+  }
+.item2 {
+background: blue;
+}
+.item3 {
+background: #E15731;
+}
+
+.item4 {
+    background-color: blueviolet;
+    padding-bottom: 5%;
+    line-height: 0.5;
+    padding-top: 3%;
+}
+
+
+
 /* Nav Styles */
 .nav {
-    background-color:#97ca66;
     padding-top: 3%;
     padding-bottom: 3%;
 }
@@ -37,11 +59,7 @@ h1, h2 {
 
 /* About Styles */
 .about {
-    line-height: 0.5;
     margin-left: 2%;
-    background-color: blue;
-    padding-bottom: 5%;
-    padding-top: 5%;
 }
 
 
@@ -55,12 +73,14 @@ a:link {
     text-decoration-line: none;
 }
 
-footer {
+.item5 {
     position: absolute;
     bottom: 0;
    text-align: center;
    width: 100%;
-   background-color: #D7D5D6;
-   
+   background: #D7D5D6;
+   margin: auto;
+   padding-top: 3%;
 }
+
 
