@@ -3,12 +3,7 @@ body {
     margin: auto;
 }
 
-h1, h2 {
-    text-align: center;
-    margin: auto;
-    line-height: 2;
-    
-}
+
 
 .container {
     display: grid;
@@ -16,9 +11,11 @@ h1, h2 {
     grid-template-rows: 150px 70px 160px 180px 100px;
   }
 
-  .item1 {
-  
+  img {
+    
+    height: 130px;
   }
+  
 .item2 {
 background:#97ca66;
 }
