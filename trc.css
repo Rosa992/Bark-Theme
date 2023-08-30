@@ -1,16 +1,16 @@
 /* Global Styles */
 body {
     margin: auto;
-    
-background: linear-gradient(180deg, rgba(142,254,118,1) 0%, 
-rgba(8,234,220,1) 35%, rgba(215,213,214,1) 100%);
 }
 
 
 .container {
     display: grid;
     grid-template-columns: 100%; 
-    grid-template-rows: 150px 70px 160px 180px 100px;
+    grid-template-rows: 100px 100px 100px;
+    background: rgb(215,213,214,1);
+    background: linear-gradient(180deg, rgba(142,254,118,1) 0%, 
+rgba(8,234,220,1) 35%, rgba(215,213,214,1) 100%);
   }
 
   .item1 {
@@ -26,12 +26,13 @@ rgba(8,234,220,1) 35%, rgba(215,213,214,1) 100%);
 
 
 
-.item4 {
+.item2  {
    
-    padding-bottom: 5%;
+    
     line-height: 0.5;
-    padding-top: 3%;
+    
 }
+
 
 
 /* Title Styles */
@@ -55,21 +56,22 @@ rgba(8,234,220,1) 35%, rgba(215,213,214,1) 100%);
 
 
 /* Footer Styles */
-ul.contact {
-    list-style: none;
-    line-height: 1.5;
-}
 
 a:link {
     text-decoration-line: none;
 }
 
-.item5 {
+
+
+.item3 ul {
+    list-style: none;
+    line-height: 1.5;
+    margin: auto;
+}
+
+.item3 {
     position: absolute;
     bottom: 0;
    text-align: center;
-   width: 100%;
-   padding-top: 3%;
+   width: 100%;  
 }
-
-
