@@ -1,8 +1,10 @@
 /* Global Styles */
 body {
     margin: auto;
+    
+background: linear-gradient(180deg, rgba(142,254,118,1) 0%, 
+rgba(8,234,220,1) 35%, rgba(215,213,214,1) 100%);
 }
-
 
 
 .container {
@@ -15,22 +17,17 @@ body {
    justify-content: center;
    align-items: center;
    text-align: center;
-   
+   padding-top: 5px;
   }
 
   .item1 img {
     width: 200px;
   }
 
-.item2 {
-background:#97ca66;
-}
-.item3 {
-background: #97ca66;
-}
+
 
 .item4 {
-    background-color: blueviolet;
+   
     padding-bottom: 5%;
     line-height: 0.5;
     padding-top: 3%;
@@ -72,7 +69,6 @@ a:link {
     bottom: 0;
    text-align: center;
    width: 100%;
-   background: #D7D5D6;
    padding-top: 3%;
 }
 
