@@ -1,6 +1,8 @@
 /* Global Styles */
 body {
     margin: auto;
+    font-family: 'Arima', cursive;
+font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -23,14 +25,14 @@ body {
   }
 
 .item2 {
-background:#97ca66;
+background:#57F29A;
 }
 .item3 {
-background: #97ca66;
+background: #57F29A;
 }
 
 .item4 {
-    background-color: blueviolet;
+    background-color: #0FF2DB;
     padding-bottom: 5%;
     line-height: 0.5;
     padding-top: 3%;
