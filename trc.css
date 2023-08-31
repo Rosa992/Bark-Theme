@@ -10,7 +10,7 @@ font-family: 'Open Sans', sans-serif;
 .container {
     display: grid;
     grid-template-columns: 100%; 
-    grid-template-rows: 170px 70px 180px 170px 170px;
+    grid-template-rows: 170px 70px 180px 170px 120px;
   }
 
   .item1 {
