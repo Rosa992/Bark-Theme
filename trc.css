@@ -10,14 +10,14 @@ font-family: 'Open Sans', sans-serif;
 .container {
     display: grid;
     grid-template-columns: 100%; 
-    grid-template-rows: 150px 70px 160px 180px 100px;
+    grid-template-rows: 170px 70px 180px 170px 100px;
   }
 
   .item1 {
    justify-content: center;
    align-items: center;
    text-align: center;
-   
+   padding-top: 2%;
   }
 
   .item1 img {
@@ -25,10 +25,10 @@ font-family: 'Open Sans', sans-serif;
   }
 
 .item2 {
-background:#57F29A;
+background:#82F27E;
 }
 .item3 {
-background: #57F29A;
+background: #82F27E;
 }
 
 .item4 {
@@ -49,6 +49,7 @@ background: #57F29A;
 /* List of Services Styles */
 .services {
     margin-left: 5%;
+    
 }
 
 
@@ -75,7 +76,7 @@ a:link {
    text-align: center;
    width: 100%;
    background: #D7D5D6;
-   padding-top: 3%;
+   
 }
 
 
