@@ -10,7 +10,7 @@ font-family: 'Open Sans', sans-serif;
 .container {
     display: grid;
     grid-template-columns: 100%; 
-    grid-template-rows: 170px 70px 180px 170px 130px;
+    grid-template-rows: 170px 70px 180px 170px 150px;
   }
 
   .item1 {
@@ -76,7 +76,7 @@ a:link {
    text-align: center;
    width: 100%;
    background: #D7D5D6;
-   padding-top: 6x;
+   padding-top: 3px;
 }
 
 
