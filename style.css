@@ -7,9 +7,15 @@
     border: 0px;
 }
 
+html{
+    line-height: 1.5;
+}
+
 h1, h3, p {
     text-align: center;
 }
+
+
 
 /* navigation */
 
@@ -224,17 +230,24 @@ h1, h3, p {
         border-radius: 20px;
     }
 
-    .start {
-        margin: 0 auto;
-        display: block;
-        text-align: center;
-        margin-top: 15px;
-        border-style: hidden;
-        border-radius: 15px;
-        padding: 10px;
-    }
+.start {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+   border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
 
 /* Meet */
+
+.meet {
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
 
 .grid3 {
     display: grid;
@@ -482,13 +495,18 @@ h1, h3, p {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 0px;
+    gap: 40px;
     height: 100%;
-    line-height: 2;
+    line-height: 2; 
+    border-radius: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
 }
 
 #contact-0 {
-    background-color: #75D96D;
+    background-color: white;
     grid-row-start: 1;
     grid-column-start: 2;
     grid-row-end: 2;
@@ -496,7 +514,7 @@ h1, h3, p {
 }
 
 #contact-1 {
-    background-color: #5F5D95;
+    background-color: white;
     grid-row-start: 1;
     grid-column-start: 3;
     grid-row-end: 2;
@@ -504,7 +522,13 @@ h1, h3, p {
     padding: 30px;
 }
 
+
+
 .submit {
     border-radius: 20px;
     padding: 15px;
+}
+
+textarea, input {
+    border: 1px solid black;
 }
