@@ -15,6 +15,9 @@ h1, h3, p {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
 
 
 /* navigation */
@@ -23,19 +26,24 @@ h1, h3, p {
 .grid {
     display: grid;
     grid-template-rows: 0.3fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.3fr 0.5fr 0.5fr;
     gap: 0px;
     height: 100%;
 }
 
 #link-0 {
-   
     grid-row-start: 1;
     grid-column-start: 2;
     grid-row-end: 1;
     grid-column-end: 2;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 1.5em;
     
 }
+
 
 #link-1 {
   
@@ -79,17 +87,24 @@ h1, h3, p {
       height: 600px;
     }
 
-    #link-3 > button {
-        border-style: hidden;
-        border-radius: 20px;
-        padding: 10px;
-    }
+#link-3 > button {
+    border-style: hidden;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #CBFBA0;
+}
 
-    #link-1, #link-2, #link-3  {
-        text-align: center;
-        position: relative;
-        justify-content: center;
-        align-content: center;
+#link-1, #link-2, #link-3 {
+    text-align: right;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: ExtraLight 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
     }
 
 #link-0 {
@@ -243,11 +258,13 @@ h1, h3, p {
 
 /* Meet */
 
-.meet {
-    padding: 10px;
-    margin-top: 15px;
-    border-radius: 20px;
+#container3 {
+    background-color: #102624;
+    width: 100%;
+    margin: auto;
+
 }
+
 
 .grid3 {
     display: grid;
@@ -282,15 +299,19 @@ h1, h3, p {
     grid-column-end: 3;
 }
 
+#space-0 > h2 {
+    margin: 20px;
+}
+
 #space-1 > img {
     width: 400px;
     height: 400px;
 }
 
-#container3 {
-    background-color: #102624;
-    width: 100%;
-    margin: auto;
+.meet {
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 20px;
 }
 
 /* Testimonials */
@@ -300,7 +321,7 @@ h1, h3, p {
     height: 400px;
     background-image: url("pattern.png");
     background-size: 1312px 229px;
-
+    padding-top: 20px;
 }
 
 
@@ -328,8 +349,9 @@ h1, h3, p {
     grid-column-end: 3;
 }
 
-    #test-0 > h2 {
+    #test-0 > h1 {
         color: #102624;
+        padding-top: 70px;
     }
 
 #test-1 {
@@ -373,7 +395,10 @@ h1, h3, p {
     grid-template-rows: 0.5fr 1fr 1fr;
     grid-template-columns: 0.5fr 0.5fr 1fr 1fr;
     gap: 0px;
-    height: 100%;
+    height: 400px;
+    position: relative;
+    justify-items: center;
+    align-items: center;
 }
 
 #serve-0 {
@@ -385,6 +410,7 @@ h1, h3, p {
 }
 
     #serve-0 > h2 {
+      
         color: #DDF0CE;
     }
 
@@ -398,7 +424,7 @@ h1, h3, p {
 
 #serve-1 > img {
     width: 820px;
-    height: 210px;
+    height: 300px;
 }
 
 /* Pet Care Tips */
@@ -415,8 +441,8 @@ h1, h3, p {
 .grid6 {
     display: grid;
     grid-template-rows: 0.5fr 1fr 0.3fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
     height: 100%;
 
 }
@@ -491,18 +517,24 @@ h1, h3, p {
 
 /* Contact */
 
+#container7 {
+    height: 500px;
+}
+
 .grid7 {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 40px;
-    height: 100%;
+    height: 400px;
     line-height: 2; 
     border-radius: 20px;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
+    justify-content: center;
+ 
 }
 
 #contact-0 {
@@ -511,6 +543,7 @@ h1, h3, p {
     grid-column-start: 2;
     grid-row-end: 2;
     grid-column-end: 3;
+    text-align: center;
 }
 
 #contact-1 {
@@ -530,5 +563,64 @@ h1, h3, p {
 }
 
 textarea, input {
-    border: 1px solid black;
+    border: 1px solid #e5e0db;
+    padding: 7px;
+    margin: 5px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #F6F1EB;
+    height: 50px;
+}
+
+ 
+.grid8 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 1fr 0.5fr 0.5fr 0.5fr;
+    gap: 0px;
+    height: 100%;
+    text-align: center;
+}
+
+#foot-0 {
+    
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+}
+
+#foot-1 {
+   
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 3;
+}
+
+#foot-2 {
+
+    grid-row-start: 1;
+    grid-column-start: 4;
+    grid-row-end: 2;
+    grid-column-end: 5;
+}
+
+#foot-3 {
+ 
+    grid-row-start: 1;
+    grid-column-start: 6;
+    grid-row-end: 2;
+    grid-column-end: 7;
+}
+
+#foot-4 {
+    
+    grid-row-start: 1;
+    grid-column-start: 7;
+    grid-row-end: 2;
+    grid-column-end: 8;
 }
