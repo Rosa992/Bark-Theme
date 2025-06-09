@@ -474,7 +474,7 @@ h1, h3, p {
 .grid6 {
     display: grid;
     grid-template-rows: 0.5fr 1fr 0.3fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 20px;
     height: 100%;
     padding-top: 20px;
