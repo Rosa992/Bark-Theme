@@ -136,6 +136,20 @@ h1, h3, p {
     height: 700px;
 }
 
+#cedar {
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-row-end: 4;
+    grid-column-end: 4;  
+    justify-items: center;
+    align-items: center;
+    color: white;
+    line-height: 3em;
+}
+
+#cedar > h1 {
+    font-size: 3em;
+}
 
 .intro {
     margin-left:auto;
